@@ -1,0 +1,323 @@
+html,body
+{
+    overflow-x: hidden; 
+}
+/*BODY*/
+body{
+background-color: #DEBE5A;
+font-family: 'Staatliches';
+}
+
+/*PAGE 1*/
+
+/*NAVBAR*/
+
+.nav-link, .navbar-brand{
+color: black;
+font-size: 20pt;
+}
+
+nav ul a {
+	list-style-type: none;
+}
+
+img#logo{
+	width: 80px;
+	height:90px;
+	padding: 14px 0px 0px 0px;
+}
+
+.navbar{
+background-color: #BD9334;
+padding: 0px;
+}
+
+
+/*TABLE*/
+
+table{
+width: 100%;
+background-color: #71412C;
+color: white;
+}
+
+select[name="persons"], select[name="rooms"] {
+background: transparent;
+}
+
+#head{
+padding-top: 10px;
+line-height: .4em;
+position: relative;
+left: 24px;
+}
+
+.btn{
+margin-bottom: 5px;
+}
+
+/*SECTION 1*/
+.section1{
+	background-color: #E3CE76;
+	margin-bottom: 10px;
+	background-image: url("img/bg2.jpg");
+	background-repeat: no-repeat;
+	background-size: auto 2000px;
+	font-size: 14pt;
+	font-family: 'Lora', serif;
+	letter-spacing: 3px;
+	padding-bottom: 100px;
+}
+
+.container-flex{
+display: flex;
+flex-direction: column;
+margin-left: 300px;
+}
+
+#extext{
+/* margin-top: 50px; */
+margin: auto;
+padding-bottom: 10px;
+padding-top: 20px;
+text-decoration: underline;
+}
+
+.p-text{
+width: 600px;
+font-family: 'Major Mono Display', monospace;
+margin: auto;
+padding-bottom: 50px;
+color: black;
+}
+
+.card{
+background-color: black;
+color: #FFD700;
+margin-top: 40px;
+}
+
+.card-body img{
+object-fit: cover;
+}
+
+.card-body img{
+padding-bottom: 15px;
+}
+
+.jumbotron{
+background-color: orange;
+color: white;
+border-radius: 0px;
+font-size: 25pt;
+margin-bottom: 20px;
+margin-top: 10px;
+}
+/*PAGE 2*/
+/*ABOUT*/
+
+.container1, .container2, .container3{
+margin-bottom: 50px;
+}
+
+.about-content p{
+width: 500px;
+font-size: 20pt;
+font-family: 'Lora', serif;
+}
+
+.about-content h4, .about-content p {
+position: relative;
+top: 100px;
+}
+
+
+/*PAGE 3*/
+/*ROOMS*/
+.hr{
+width: 800px;
+margin-right: 300px;
+margin-left: 10px;
+}
+
+.room-header{
+position: relative;
+bottom: -10px;
+}
+
+
+/*PAGE 4*/
+/*GALLERY*/
+.carousel-item img{
+width: 1100px;
+height: 500px;
+}
+
+.carousel-item a {
+letter-spacing: 5px;
+color: yellow;
+font-size: 14pt;
+
+}
+
+.carousel-caption h1{
+color: white;
+letter-spacing: 3px;
+}
+
+/*PAGE 5*/
+/*CONTACTS*/
+
+.telephone-numbers{
+line-height: 8px;
+letter-spacing: 1px;
+}
+
+.address{
+line-height: 20px;
+}
+.address-header{
+font-size: 20pt;
+letter-spacing: 2px;
+}
+
+
+/*FOOTER*/
+footer{
+padding-top: 150px;
+}
+
+footer i {
+color: black;
+position: relative;
+bottom: 100px;
+}
+
+
+/*MEDIA QUERIES*/
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+.container1 p, .container2 p, .container3 p{
+		padding-bottom: 80px;
+		width: 100%;
+	margin: auto;
+}
+
+.container1 img, .container2 img, .container3 img {
+position: relative;
+top: 40px;
+}
+
+.container1 h4, .container2 h4, .container3 h4{
+	position: relative;
+	top: 30px;
+	left: 40px;
+}
+
+.p-text{
+	width: 100%;
+}
+
+.section1{
+	/*SETS SIZE OF BACKGROUNG IMAGE*/
+	background-size: 1400%;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+	.container1 p, .container2 p, .container3 p{
+		padding-bottom: 80px;
+		width: 550px;
+	margin: auto;
+	
+}
+
+.container1 img, .container2 img, .container3 img {
+position: relative;
+top: 40px;
+}
+
+.container1 h4, .container2 h4, .container3 h4{
+	position: relative;
+	top: 30px;
+	left: 55px;
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+	.container1 p, .container2 p, .container3 p{
+		padding-bottom: 10px;
+		width: 100%;
+		position: relative;
+		top: 40px;
+		right: 80px;
+	margin: auto;
+}
+
+.container1 img, .container2 img, .container3 img {
+position: relative;
+top: 40px;
+left: 30px;
+}
+
+.container1 h4, .container2 h4, .container3 h4{
+	position: relative;
+	top: 40px;
+	left: -80px;
+}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+	.container1 p, .container2 p, .container3 p{
+		padding-bottom: 10px;
+		width: 100%;
+		position: relative;
+		top: 150px;
+	margin: auto;
+	
+	
+}
+
+.container1 img, .container2 img, .container3 img {
+position: relative;
+top: 40px;
+}
+
+.container1 h4, .container2 h4, .container3 h4{
+	position: relative;
+	top: 150px;
+	left: 1px;
+	
+}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+	.container1 p, .container2 p, .container3 p{
+		padding-bottom: 10px;
+		width: 100%;
+		position: relative;
+		right: 40px;
+		top: 180px;
+	margin: auto;
+}
+
+.container1 img, .container2 img, .container3 img {
+position: relative;
+top: 40px;
+}
+
+.container1 h4, .container2 h4, .container3 h4{
+	position: relative;
+	top: 180px;
+	
+}
+
+}

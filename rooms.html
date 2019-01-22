@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <title>Luck Resort: Rooms</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Luck Resort Homepage">
+    <meta name="author" content="Printassia Johnson">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    		<link href="https://fonts.googleapis.com/css?family=Lora|Major+Mono+Display|Staatliches" rel="stylesheet">
+    		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    		<link rel="stylesheet" type="text/css" href="style.css">
+    <title></title>
+  </head>
+  <body>
+
+    <!--START TABLE !-->
+    <table>
+    	<thead>
+    		<th class="col-auto" id="head">ARRIVE</th>
+    		<th class="col-sm" id="head">DEPART</th>
+    		<th class="col-sm" id="head">ROOMS</th>
+    		<th class="col-sm" id="head">ADULTS</th>
+    		<th class="col-sm" id="head">PROMO CODE</th>
+    	</thead>
+
+    	<style media="screen">
+
+    	</style>
+
+    <!--START FORM !-->
+    <form class="col-auto">
+    	<tr>
+    		<td class="col-auto"><input type="text" class="rounded"></td>
+
+    		<td><input type="text" class="rounded"></td>
+
+    		<td class="col-auto">
+    		<select name="rooms">
+    		<option value="empress">ROYAL EMPRESS SUITE</option>
+    		<option value="empreor">ROYAL EMPREOR SUITE</option>
+    		<option value="prince">PRINCE SUITE</option>
+    		<option value="princess">PRINCESS SUITE</option>
+    			<option value="lion">LION/LIONESS SUITE</option>
+    		</select>
+    	</td>
+
+    		<td class="col-auto">
+    			<select name="persons">
+    			<option value="oneperson">1 per room</option>
+    			<option value="twoperson">2 per room</option>
+    			<option value="threeperson">3 per room</option>
+    			<option value="fourperson">4 per room</option>
+    			</select>
+    		</td>
+
+    		<td class="col-auto"><input type="text" class="rounded"></td>
+    		<td><button type="button" class="btn btn-danger" name="button">CHECK AVAILABILITY</button></td>
+    </tr>
+    </form> <!--END FORM !-->
+    </table>
+    <!--END TABLE !-->
+
+
+    <!--NAVBAR !-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <a class="navbar-brand p-2" href="index.html">HOME</a>
+    <img src="img/IS2.png" alt="Island Luck Logo" id="logo">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collNavbar">
+    <span class="navbar-toggler-icon" id="collNavbar"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="collNavbar">
+    	<ul class="nav ml-auto">
+        <li class="nav-item">
+    	    <a class="nav-link" href="about.html">About</a>
+    	  </li>
+    	  <li class="nav-item">
+    	    <a class="nav-link" href="rooms.html">Rooms</a>
+    	  </li>
+    	  <li class="nav-item">
+    	    <a class="nav-link active" href="gallery.html">Gallery</a>
+    	  </li>
+    	  <li class="nav-item">
+    	    <a class="nav-link active" href="contacts.html">Contacts</a>
+    	  </li>
+    	</ul>
+    </div>
+
+    </nav>
+    <!--End of NAVBAR !-->
+
+  <h1 class="room-header m-2">ROOMS</h1>
+  <div class="hr">
+    <hr>
+  </div>
+
+    <!-- ROOMS-->
+<div class="d-flex">
+<!--EMPRESS SUITE-->
+<div class="card m-2" style="width:490px;">
+  <img class="card-img-top" src="img/queen1.jpg" alt="Empress Suite">
+  <div class="card-body text-center bg-warning text-white">
+<div class="card-title">ROYAL EMPRESS SUITE</div>
+<div class="card-text">Styled for a Queen</div>
+  </div>
+</div>
+
+<!--EMPREOR SUITE-->
+<div class="card m-2" style="width:400px;">
+  <img class="card-img-top" src="img/emperor.jpg" alt="Empress Suite">
+  <div class="card-body text-center bg-warning text-white">
+<div class="card-title">ROYAL EMPREOR SUITE</div>
+<div class="card-text">Styled for a King</div>
+  </div>
+</div>
+  <!--PRINCESS SUITE-->
+<div class="card m-2" style="width:420px;">
+  <img class="card-img-top" src="img/princess.jpg" alt="Empress Suite">
+  <div class="card-body text-center bg-warning text-white">
+<div class="card-title">PRINCESS SUITE</div>
+<div class="card-text">Styled for a Princess</div>
+  </div>
+</div>
+
+
+
+</div>
+
+
+
+<!--SECOND ROW-->
+<div class="d-flex">
+  <!-- PRINCE SUITE-->
+<div class="card m-2" style="width:400px;">
+    <img class="card-img-top" src="img/prince.jpg" alt="Empress Suite">
+    <div class="card-body text-center bg-warning text-white">
+  <div class="card-title">THE PRINCE SUITE</div>
+  <div class="card-text">Styled for a Prince</div>
+    </div>
+  </div>
+
+  <!--LION/LIONESS SUITE-->
+  <div class="card m-2" style="width:420px;">
+    <img class="card-img-top" src="img/lion.jpg" alt="Empress Suite">
+    <div class="card-body text-center bg-warning text-white">
+  <div class="card-title">THE LION/LIONESS SUITE</div>
+  <div class="card-text">Styled for a Lion or Lioness</div>
+    </div>
+  </div>
+
+</div>
+
+<hr>
+    <footer class="footer">
+    <div class="d-flex flex-row justify-content-center">
+
+    		<div class="p-2">
+    	<i class="fa fa-facebook-square fa-2x"></i>
+    		</div>
+
+    		<div class="p-2">
+    			<i class="fa fa-twitter-square fa-2x"></i>
+    		</div>
+    		<div class="p-2">
+    			<i class="fa fa-youtube-square fa-2x"></i>
+    		</div>
+
+    		<div class="p-2">
+    			<i class="fa fa-pinterest-square fa-2x"></i>
+    		</div>
+    	</div>
+
+    </footer>
+  </body>
+</html>
